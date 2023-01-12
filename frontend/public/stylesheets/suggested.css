@@ -1,0 +1,74 @@
+.genre-title {
+  font-size: 35px;
+  font-weight: 30px;
+  color: #1a1a1a; 
+  margin: 30px 0px 20px 20px;  
+}
+
+.genre-subtitle {
+    width: 200px;  
+    height: 40px; 
+}
+
+.suggested-genres {
+  display: flex; 
+  min-width: 1000px; 
+  width: 100%; 
+}
+
+.genre-1 {
+  /* display: flex;  */
+  font-size: 30px; 
+  padding: 20px 20px; 
+  width: 320px; 
+  height: 200px; 
+  background: linear-gradient(250deg,transparent,rgb(65, 0, 245));
+  color: white; 
+  border-radius: 8px; 
+  margin-left: 20px; 
+}
+
+.genre-1:hover {
+  cursor: pointer; 
+}
+
+.genre-2:hover {
+  cursor: pointer; 
+}
+
+.genre-3:hover {
+  cursor: pointer; 
+}
+
+.genre-2 {
+  /* display: flex;  */
+  font-size: 30px; 
+  padding: 20px 20px; 
+  width: 320px; 
+  height: 200px; 
+  background: linear-gradient(250deg,transparent,rgb(210, 155, 58));
+  color: white; 
+  border-radius: 8px; 
+  margin-left: 20px; 
+}
+
+.genre-3 {
+  /* display: flex;  */
+  font-size: 30px; 
+  padding: 20px 20px; 
+  width: 320px; 
+  height: 200px; 
+  background: linear-gradient(250deg,transparent,#8A9B68); 
+  color: white; 
+  border-radius: 8px; 
+  margin-left: 20px; 
+}
+
+.genre-img {
+  width: 120px;
+  height: 120px; 
+  align-self: flex-end; 
+  margin-bottom: -14px;  
+  opacity: .8; 
+  
+}

@@ -1,0 +1,43 @@
+.genre-show-photo {
+  width: 180px; 
+  height: 180px;  
+  margin-left: 14px; 
+  transform: rotate(10deg); 
+}
+
+.genre-show-header {
+  display: flex; 
+  padding-bottom: 30px; 
+  border-bottom: 1px solid hsla(0,0%,100%,.1);
+  width: 50%;
+  margin: 60px auto;  
+}
+
+.genre-header-info {
+  padding-top: 10px; 
+  margin-left: 40px; 
+}
+
+.genre-show-title {
+    font-size: 32px;
+    letter-spacing: -.005em;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 45px;  
+}
+
+.genre-show-songs {
+    margin: 70px auto;
+    width: calc(100% - 300px);
+}
+
+.genre-background-photo {
+  width: 100%;
+  min-width: 900px; 
+  height: auto;  
+  filter: brightness(90%);
+  z-index: -1; 
+}
+
+
+

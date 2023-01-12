@@ -1,0 +1,22 @@
+.artist-show-photo {
+  width: 100%;
+  min-width: 830px; 
+  height: auto;  
+  filter: brightness(60%);
+}
+.artist-show-title {
+    font-size: 72px;
+    line-height: 82px;
+    letter-spacing: -.005em;
+    font-weight: bold;
+    color: #fff; 
+    margin-left: 40px; 
+    margin-top: 100px; 
+}
+
+.artist-show-songs {
+  margin-top: 250px;
+  margin-bottom: 40px;  
+}
+
+

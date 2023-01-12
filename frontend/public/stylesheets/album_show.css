@@ -1,0 +1,129 @@
+.album-show-photo {
+  width: 180px; 
+  height: 180px;  
+  margin-left: 14px; 
+}
+
+.album-artist-name {
+  color: white; 
+}
+
+.album-artist-name:hover {
+  text-decoration: underline; 
+}
+
+.album-year {
+  color: gray; 
+  margin-top: 14px; 
+  font-size: 12px; 
+  letter-spacing: 0.03em; 
+}
+
+
+.album-by {
+  font-size: 14px; 
+  margin-top: 14px; 
+  color: gray; 
+}
+
+.artist-show-header {
+  display: flex; 
+  padding-bottom: 30px; 
+  border-bottom: 1px solid hsla(0,0%,100%,.1);
+  width: 90%; 
+  margin: 60px auto;   
+  
+}
+
+.album-header-info {
+  padding-top: 10px; 
+  margin-left: 40px; 
+}
+
+
+
+.album-show-title {
+    font-size: 24px;
+    letter-spacing: -.005em;
+    font-weight: bold;
+    color: #fff; 
+}
+
+.album-show-count {
+    margin-top: 20px; 
+    font-size: 12px;
+    letter-spacing: -.005em;
+    font-weight: bold;
+    color: #fff; 
+}
+
+.album-show-songs {
+    margin: 70px auto;
+    width: calc(100% - 300px);
+}
+
+.no-liked-title {
+  color: white; 
+}
+
+.album-background-photo {
+  width: 100%;
+  min-width: 830px; 
+  height: auto;  
+  filter: brightness(90%);
+}
+
+.album-show-interactive {
+  display: flex; 
+  margin-top: 28px; 
+  width: 240px; 
+  justify-content: space-between;
+}
+
+.like-album .fa-heart {
+  margin-left: -5px; 
+  font-size: 26px; 
+  padding-top: 6px; 
+  color: gray; 
+}
+
+.like-album .fa-heart:hover {
+  font-size: 28px; 
+  color:  rgba(128, 128, 128, 0.212); 
+  cursor: pointer; 
+}
+
+.album-options  > .fa-ellipsis-h {
+  padding-top: 10px; 
+  color: rgb(170, 169, 169);
+}
+
+.album-options  > .fa-ellipsis-h:hover {
+    cursor: pointer; 
+}
+
+
+.modal-title-choose {
+  margin: 0 auto; 
+  width: 100px; 
+  overflow: hidden;
+}
+
+.album-show-play, .playlist-show-play {
+  color: #1f1919;
+  font-size: 10px; 
+  font-weight: bold; 
+  border-radius: 40px; 
+  background: #f2e2b2; 
+  padding: 14px 48px; 
+  letter-spacing: 0.3em; 
+}
+
+.album-show-play:hover {
+  color: white;
+  background: #50015c; 
+}
+
+.modal-count {
+  font-size: 10px; 
+}

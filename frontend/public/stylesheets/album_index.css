@@ -1,0 +1,99 @@
+.album {
+  position: relative;
+  margin-left: 14px; 
+  margin-top: 20px; 
+  background: #282828; 
+  padding: 22px 22px 30px; 
+  border-radius: 8px; 
+}
+
+.album:hover {
+  cursor: pointer; 
+}
+
+.album-name {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 150px;
+  margin-top: 16px; 
+  font-family: sans-serif; 
+  font-size: 14px;
+  font-weight: 800; 
+  text-align: left; 
+  color: white; 
+}
+
+.song-count {
+  font-style: italic; 
+  font-size: 10px;
+  margin-top: 12px; 
+  font-weight: 200; 
+  color: lightgray; 
+}
+
+.album-description {
+  margin-top: 10px; 
+  font-family: sans-serif; 
+  font-size: 10px;
+  font-weight: 100; 
+  text-align: left; 
+  color: white; 
+}
+
+.album-photo {
+  width: 150px;
+  height: 150px;
+}
+
+.albums-list {
+  display: flex;  
+}
+
+.album-artist {
+  margin-top: 4px;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 100;
+  text-align: left;
+  color: white;
+}
+
+.album-artist:hover {
+  text-decoration: underline;
+}
+
+.albums-list-title {
+  color: white; 
+  font-size: 24px; 
+  margin-top: 18px; 
+  margin-left: 14px; 
+}
+
+.album:hover .play-button-album {
+    display: block;
+}
+
+.play-button-album {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  display: none;
+  color: green;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.album:hover .play-button-liked {
+    display: block;
+}
+
+.play-button-liked {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  display: none;
+  color: red;
+  font-size: 36px;
+  cursor: pointer;
+}

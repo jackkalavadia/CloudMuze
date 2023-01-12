@@ -1,0 +1,166 @@
+.song {
+  position: relative;
+  display: flex;
+  margin-top: 8px;
+  background: black;
+  width: calc(100% - 20px);
+  margin-left: 14px; 
+}
+
+.song-item-info {
+  align-self: center;
+  margin-left: 14px;
+}
+
+.search-glass {
+  color: gray; 
+  position: fixed;
+  top: 27px;
+  left: 372px;
+  font-size: 22px;
+  z-index: 1500;
+  z-index: 2500; 
+}
+
+.search-input {
+  width: 275px;
+  padding: 13px 34px 13px 50px;
+  background: white;
+  border-radius: 25px;
+  font-size: 14px;
+  position: fixed;
+  top: 15px;
+  left: 355px;
+  z-index: 1500;
+}
+
+.song:hover {
+  cursor: pointer;
+  transition: 0.5s ease;
+  background: #282828;
+}
+
+.play-button {
+  position: absolute;
+  left: 18px;
+  top: 22px;
+  display: none;
+  color: green;
+  font-size: 38px;
+  cursor: pointer;
+}
+
+.song:hover .play-button {
+  display: block;
+}
+
+.song-title {
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  text-align: left;
+  color: white;
+}
+
+.song-artist {
+  margin-top: 4px;
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 100;
+  text-align: left;
+  color: white;
+}
+
+.song-artist:hover {
+  text-decoration: underline;
+}
+
+.song-photo {
+  width: 75px;
+  height: 75px;
+}
+
+.songs-list {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  min-width: 600px; 
+  margin-top: 14px;
+  margin-bottom: 14px; 
+}
+
+.options-song {
+  color: gray; 
+  position: absolute;
+  right: 16px;
+  top: 26px;
+  display: none; 
+  padding: 6px; 
+}
+
+.options-song:hover {
+  background: black; 
+  border: 1px solid transparent; 
+  border-radius: 100%; 
+}
+
+.options-popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.options-popup {
+  display: flex; 
+}
+
+.options-popup .optionstext {
+  visibility: hidden;
+  color: gray;
+  padding: 4px;
+  position: absolute;
+  left: -1400%;
+  top: -5px;
+  background-color: #282828;
+  border-radius: 0px; 
+  border: 1px solid black; 
+  width: 220px; 
+}
+
+.option-choice {
+  padding: 10px 10px; 
+}
+.option-choice:hover {
+  color: white;
+  background: #333; 
+}
+
+
+.options-popup .show {
+  visibility: visible;
+  z-index: 15; 
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+  text-align: left; 
+}
+
+.song:hover .options-song {
+  display: block; 
+}
+
+.options-song:hover {
+  cursor: pointer; 
+}
+
+.songs-list-title {
+  color: white;
+  font-size: 24px;
+  margin-top: 18px;
+  margin-left: 14px;
+}

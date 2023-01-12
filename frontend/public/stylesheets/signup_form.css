@@ -1,0 +1,111 @@
+
+.signup-form-container {
+    width: 400px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.signup-form-container > .heading > img{
+    width: 200px;
+    height: auto;
+}
+
+.signup-form > .signup-input > input {
+    width: 100%;
+    height: 24px;
+    padding: 7px;
+    padding-right: 0;
+    border: 1px solid rgb(140, 140, 140)
+}
+
+.signup-input.birthdate {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+}
+
+.signup-input.birthdate > label {
+    font-size: 15px;
+    color: rgb(140, 140, 140);
+}
+
+.signup-input.birthdate .birthdate > input {
+    width: 100%;
+    height: 24px;
+    padding: 7px;
+    padding-right: 0;
+    border: 1px solid rgb(140, 140, 140)
+}
+
+.signup-disclaimer {
+    color: rgb(140, 140, 140);
+    font-size: 12px;
+    padding: 20px 0;
+}
+.signup-button {
+    display: flex;
+    justify-content: center;
+}
+
+
+.signup-button > input {
+    padding: 16px 14px 18px;
+    color: #f1f1f1;
+    background-color: black;
+    font-size: 15px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.signup-button > input:hover {
+    background-color: #3a17ae;
+}
+
+.login-instead {
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.login-instead a {
+    color: #52dcff;
+    text-decoration: none;
+}
+
+.login-instead a:hover {
+    color: #2cc7ff;
+}
+
+.signup.error-div {
+    color: red;
+    text-align: left;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.signup.hidden {
+    display: none !important;
+}
+
+.signup-border.has-error {
+    border: 1px solid #eb1e32 !important;
+}
